@@ -124,8 +124,6 @@ def donate(janela):
         SendMessage(hwnd, win32con.WM_LBUTTONDOWN,
                     win32con.MK_LBUTTON, click_guild)
         SendMessage(hwnd, win32con.WM_LBUTTONUP, None, click_guild)
-        # sleep de 24h
-        sleep(86400)
 
 
 def daily_buy(janela):
